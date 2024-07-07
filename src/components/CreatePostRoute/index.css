@@ -1,0 +1,81 @@
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-container {
+    width: 50%;
+    height: 50%;
+    background-color: #1b252e;
+    margin: 5px;
+    align-self: center;
+    margin-top: 100px;
+    padding-bottom: 5px;
+  }
+  
+  .close-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .title-element {
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .description-element {
+    height: 100px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .img-url-element {
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .main-heading {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .submit-btn {
+    height: 40px;
+    align-self: center;
+    width: 50%;
+    background-color: darkgrey;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  .open {
+    display: none;
+  }
+  
+  .close {
+    display: block;
+  }
+  

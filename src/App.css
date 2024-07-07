@@ -1,6 +1,29 @@
+*{
+  margin: 0px;
+  
+}
+
+body{
+  background-color: #bbc3c9;
+  text-align: center;
+  background-color: #bbc3c9;
+  height:100%;
+  width:100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
 .App {
   text-align: center;
+  background-color: #bbc3c9;
+  height:100%;
+  width:100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
 }
+
 
 .App-logo {
   height: 40vmin;
